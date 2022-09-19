@@ -1,10 +1,10 @@
 import React from "react";
-import ItemGroup from "./Components/ItemGroup";
+import Task from "./react-task/Task";
 
 const App = () => {
   return (
     <>
-      <h1>App Component</h1>
+      <Task />
     </>
   );
 };
